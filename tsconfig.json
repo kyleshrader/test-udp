@@ -1,10 +1,9 @@
 {
     "compilerOptions": {
         "outDir": "./dist",
-        "module": "NodeNext",
+        "module": "commonjs",
         "lib": ["es6"],
-        "target": "ESNext",
-        "moduleResolution": "NodeNext",
+        "target": "ES2016",
         "declaration": true,
         "removeComments": true,
         "noImplicitAny": false,
