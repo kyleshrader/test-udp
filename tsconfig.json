@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "NodeNext",
+        "lib": ["es6"],
+        "target": "ESNext",
+        "moduleResolution": "NodeNext",
+        "declaration": true,
+        "removeComments": true,
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "allowJs": true,
+        "strictNullChecks": false,
+        "forceConsistentCasingInFileNames": true,
+        "useDefineForClassFields": false,
+    },
+    "exclude": ["node_modules", "dist"],
+    "include": ["src"],
+  } 

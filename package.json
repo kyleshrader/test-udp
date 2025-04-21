@@ -1,0 +1,21 @@
+{
+  "name": "test-udp",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node --transpile-only src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@colyseus/core": "^0.16.16",
+    "@colyseus/h3-transport": "^0.16.2",
+    "@colyseus/schema": "^3.0.33",
+    "colyseus": "^0.16.3",
+    "express": "^5.1.0"
+  }
+}
